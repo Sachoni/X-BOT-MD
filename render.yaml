@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: x-bot-md
+    name: nzi-bot-md
     env: node
     branch: main
     repo: https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD.git
