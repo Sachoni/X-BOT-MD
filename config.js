@@ -8,19 +8,19 @@ if (fs.existsSync('config.env')) {
 }
 
 const API = "https://api-aswin-sparky.koyeb.app";
-const ALIVE = process.env.ALIVE || "I am Alive";
-const HANDLERS = process.env.HANDLER || "^";
+const ALIVE = process.env.ALIVE || "Mark is always On";
+const HANDLERS = process.env.HANDLER || "/";
 const SESSION_ID = process.env.SESSION_ID || "";
-const SUDO = process.env.SUDO || '917012984396';
+const SUDO = process.env.SUDO || '254736429306';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
-const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
+const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
 const DISABLE_PM = process.env.DISABLE_PM  || "false";
 const PM_BLOCK = process.env.PM_BLOCK || "false";
 const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
-const READ_MESSAGES = process.env.READ_MESSAGES || "false";
-const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
+const READ_MESSAGES = process.env.READ_MESSAGES || "true";
+const BOT_INFO = process.env.BOT_INFO || "Nzi-BOT-MD;ASWIN SPARKY;https://github.com/Sachoni/X-BOT-MD/blob/d66f487d9e4c3208bd1472b149959c0cb6793125/Images/Screenshot_20240919_190110_CapCut.jpg";
 const URL = process.env.URL || "https://www.instagram.com/sparky.drip";
-const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
+const AUDIO_DATA = process.env.AUDIO_DATA || "Nzi-BOT MD;ASWIN SPARKY;https://github.com/Sachoni/X-BOT-MD/blob/d66f487d9e4c3208bd1472b149959c0cb6793125/Images/Screenshot_20240919_190110_CapCut.jpg";
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
 const WORK_TYPE = process.env.WORK_TYPE || 'public';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
