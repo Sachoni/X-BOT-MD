@@ -1,5 +1,5 @@
 {
-  "name": "X-BOT-MD",
+  "name": "Nzi-BOT-MD",
   "version": "3.0.0",
   "description": "X-BOT-MD Simple WhatsApp Bot",
   "logo": "https://i.imgur.com/Q2UNwXR.jpg",
@@ -32,22 +32,22 @@
     "STICKER_DATA": {
       "description": "Enter Your Sticker PackName And Author Name",
       "required": false,
-      "value": "X BOT MD;ASWIN SPARKY"
+      "value": "Nzi BOT MD;ASWIN SPARKY"
     },
     "AUDIO_DATA": {
       "description": "Enter Your Owner Name",
       "required": false,
-      "value": "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg"
+      "value": "Nzi BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg"
     },
     "BOT_INFO": {
-      "description": "Enter Your Owner Number",
+      "description": "+254736429306",
       "required": false,
-      "value": "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg"
+      "value": "Nzi-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg"
     },
     "ALWAYS_ONLINE": {
-      "description": "Enter Your Bot Name",
+      "description": "Nzi-BOT",
       "required": false,
-      "value": "false"
+      "value": "True"
     },
     "WORK_TYPE": {
       "description": "Enter Your Mode Type public For Public Otherwise Type private",
@@ -57,7 +57,7 @@
     "AUTO_STATUS_VIEW": {
       "description": "If You Want To View Status Automatically, Type true. Otherwise, Type false",
       "required": false,
-      "value": "false"
+      "value": "True"
     }
   },
   "addons": [
