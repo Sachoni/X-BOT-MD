@@ -14,8 +14,8 @@ const SESSION_ID = process.env.SESSION_ID || "";
 const SUDO = process.env.SUDO || '254736429306';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
 const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
-const DISABLE_PM = process.env.DISABLE_PM  || "false";
-const PM_BLOCK = process.env.PM_BLOCK || "false";
+const DISABLE_PM = process.env.DISABLE_PM  || "true";
+const PM_BLOCK = process.env.PM_BLOCK || "true";
 const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
 const READ_MESSAGES = process.env.READ_MESSAGES || "true";
 const BOT_INFO = process.env.BOT_INFO || "Nzi-BOT-MD;ASWIN SPARKY;https://github.com/Sachoni/X-BOT-MD/blob/d66f487d9e4c3208bd1472b149959c0cb6793125/Images/Screenshot_20240919_190110_CapCut.jpg";
@@ -27,7 +27,7 @@ const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
 const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
 const KOYEB_API_KEY = process.env.KOYEB_API_KEY || "";
-
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyB2vbK4v4aZPPvLdtjsABpnzCt3wbAhgWM";
 
 
 
@@ -60,6 +60,7 @@ module.exports = {
   HEROKU_API_KEY,
   HEROKU_APP_NAME,
   KOYEB_API_KEY,
+  GEMINI_API_KEY,
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
