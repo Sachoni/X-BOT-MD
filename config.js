@@ -13,7 +13,7 @@ const HANDLERS = process.env.HANDLER || "^";
 const SESSION_ID = process.env.SESSION_ID || "";
 const SUDO = process.env.SUDO || '917012984396';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
-const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
+const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
 const DISABLE_PM = process.env.DISABLE_PM  || "false";
 const PM_BLOCK = process.env.PM_BLOCK || "false";
 const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
@@ -27,7 +27,8 @@ const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
 const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
 const KOYEB_API_KEY = process.env.KOYEB_API_KEY || "";
-
+const DOWNLOAD_VIEW_ONCE_PHOTO = process.env.DOWNLOAD_VIEW_ONCE_PHOTO || "True";
+  
 
 
 
@@ -60,6 +61,7 @@ module.exports = {
   HEROKU_API_KEY,
   HEROKU_APP_NAME,
   KOYEB_API_KEY,
+  DOWNLOAD_VIEW_ONCE_PHOTO,
   DATABASE_URL: DATABASE_URL,
   DATABASE:
     DATABASE_URL === "./lib/database.db"
